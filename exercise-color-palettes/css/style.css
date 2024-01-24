@@ -24,14 +24,14 @@
     padding: 24px;
 }
 #palette1-color4 {
-    background: #F4A261;
+    background-color: #F4A261;
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 24px;
 }
 #palette1-color5 {
-    background: #E76F51;
+    background-color: #E76F51;
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -63,14 +63,14 @@
     padding: 24px;
 }
 #palette2-color4 {
-    background: #80ED99;
+    background-color: #80ED99;
     color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 #palette2-color5 {
-    background: #C7F9CC;
+    background-color: #C7F9CC;
     color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -102,14 +102,14 @@
     padding: 24px;
 }
 #palette3-color4 {
-    background: #F2BAC9;
+    background-color: #F2BAC9;
     color: rgb(0, 0, 0);
     font-family: cursive;
     text-align: center;
     padding: 24px;
 }
 #palette3-color5 {
-    background: #F2E2BA;
+    background-color: #F2E2BA;
     color: rgb(0, 0, 0);
     font-family: cursive;
     text-align: center;
