@@ -1,0 +1,12 @@
+div {
+    border: 10px dashed rgb(138, 106, 63);
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: rgb(204, 248, 235);
+}
+p {
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: rgb(249, 251, 216);
+    border-radius: 48px;
+}
