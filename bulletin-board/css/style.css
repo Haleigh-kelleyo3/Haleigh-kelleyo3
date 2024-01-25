@@ -1,0 +1,86 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+#post-it1,
+#post-it2,
+#post-it3 {
+    display: inline-block;
+    margin: 40px;
+}
+#post-it1 {
+    box-shadow: 8px 8px 15px rgb(49, 49, 49);
+    background-color: rgb(61, 126, 183);
+    padding: 62px;
+    width: 300px;
+}
+#h1-post-it1 {
+    text-align: center;
+}
+#post-it2 {
+    box-shadow: 8px 8px 15px rgb(49, 49, 49);
+    background-color: rgb(202, 208, 216);
+    padding: 68px;
+    width: 300px;
+    text-align: center;
+}
+#post-it3 {
+    box-shadow: 8px 8px 15px rgb(49, 49, 49);
+    background-color: rgb(253, 203, 244);
+    padding: 80px;
+    width: 300px;
+    text-align: center;
+    margin: 24px;
+}
+#post-it4,
+#post-it5,
+#post-it6 {
+    display: inline-block;
+    margin: 30px;
+}
+#post-it4 {
+    box-shadow: 8px 8px 15px rgb(49, 49, 49);
+    background-color: rgb(179, 220, 223);
+    padding: 60px;
+    width: 300px;
+    text-align: center;
+}
+#post-it5 {
+    box-shadow: 8px 8px 15px rgb(49, 49, 49);
+    background-color: aquamarine;
+    padding: 70px;
+    width: 300px;
+    text-align: center;
+}
+#post-it6 {
+    box-shadow: 8px 8px 15px rgb(49, 49, 49);
+    background-color: rgb(213, 169, 255);
+    padding: 80px;
+    width: 300px;
+    text-align: center;
+}
+#post-it7,
+#post-it8 {
+    display: inline-block;
+    margin: 20px;
+}
+#post-it7 {
+    box-shadow: 8px 8px 15px rgb(49, 49, 49);
+    background-color: rgb(200, 255, 163);
+    padding: 60px;
+    width: 300px;
+    text-align: center;
+}
+#post-it8 {
+    box-shadow: 8px 8px 15px rgb(49, 49, 49);
+    background-color: rgb(255, 240, 254);
+    padding: 20px;
+    width: 300px;
+}
+#post-it8 img {
+    width: 100%;
+}
