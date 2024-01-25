@@ -6,6 +6,15 @@
 
     Good luck, and have fun!
 */
+.push-pin {
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(45, 45, 45);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    margin: 24px;
+    display: inline-block;
+}
 #post-it1,
 #post-it2,
 #post-it3 {
@@ -24,14 +33,14 @@
 #post-it2 {
     box-shadow: 8px 8px 15px rgb(49, 49, 49);
     background-color: rgb(202, 208, 216);
-    padding: 68px;
+    padding: 70px;
     width: 300px;
     text-align: center;
 }
 #post-it3 {
     box-shadow: 8px 8px 15px rgb(49, 49, 49);
     background-color: rgb(253, 203, 244);
-    padding: 80px;
+    padding: 20px 80px 80px 80px;
     width: 300px;
     text-align: center;
     margin: 24px;
@@ -45,21 +54,21 @@
 #post-it4 {
     box-shadow: 8px 8px 15px rgb(49, 49, 49);
     background-color: rgb(179, 220, 223);
-    padding: 60px;
+    padding: 20px 60px 60px 60px;
     width: 300px;
     text-align: center;
 }
 #post-it5 {
     box-shadow: 8px 8px 15px rgb(49, 49, 49);
     background-color: aquamarine;
-    padding: 70px;
+    padding: 20px 70px 70px 70px;
     width: 300px;
     text-align: center;
 }
 #post-it6 {
     box-shadow: 8px 8px 15px rgb(49, 49, 49);
     background-color: rgb(213, 169, 255);
-    padding: 80px;
+    padding: 20px 80px 80px 80px;
     width: 300px;
     text-align: center;
 }
