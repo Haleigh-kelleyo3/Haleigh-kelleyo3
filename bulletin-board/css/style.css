@@ -24,7 +24,7 @@
 #post-it1 {
     box-shadow: 8px 8px 15px rgb(49, 49, 49);
     background-color: rgb(61, 126, 183);
-    padding: 62px;
+    padding: 20px 62px 62px 62px;
     width: 300px;
 }
 #h1-post-it1 {
@@ -80,7 +80,7 @@
 #post-it7 {
     box-shadow: 8px 8px 15px rgb(49, 49, 49);
     background-color: rgb(200, 255, 163);
-    padding: 60px;
+    padding: 20px 60px 60px 60px;
     width: 300px;
     text-align: center;
 }
