@@ -15,16 +15,29 @@
 .orange {
     background-color: orange;
     border-color: chocolate;
+    border-radius: 50%;
 }
 .blue {
     background-color: aqua;
     border-color: rgb(30, 174, 174);
+    transform: rotate(45deg);
 }
 .yellow {
     background-color: rgb(255, 255, 164);
     border-color: yellow;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: groove;
 }
 .green {
     background-color:lightgreen;
     border-color: green;
+    border-style: inset;
+    border-radius: 15px;
+}
+.pink {
+    background-color: pink;
+    border-color: palevioletred;  
+    border-end-end-radius: 50%;
+    border-style: inset;
 }
