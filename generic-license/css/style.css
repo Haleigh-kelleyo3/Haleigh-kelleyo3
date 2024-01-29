@@ -1,0 +1,116 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+#license {
+    background: linear-gradient(to bottom right, rgb(250, 245, 119), rgb(231, 139, 64));
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(0, 0, 0);
+    padding: 20px;
+    width: 700px;
+}
+h1 {
+    font-size: 45px;
+    color: navy;
+    margin: 0px;
+}
+h4 {
+    background-color: navy;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 0px 5px 0px;
+}
+#left-side {
+    display: inline-block;
+    width: 63%;
+}
+#license-no{
+    margin-left: 5px;
+    color: navy;
+    display: inline-block;
+    margin-right: 15px;
+}
+#license-no span{
+    margin-left: 5px;
+    font-weight: bold;
+    color: red;
+}
+#expires span{
+    margin-left: 5px;
+    font-weight: bold;
+    color: red;
+}
+#expires {
+    color: navy;
+    display: inline-block;
+}
+#address {
+    margin: 20px 0px 10px 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#data-fields {
+    display: inline-block;
+    width: 74%;
+}
+#small-pic {
+    display: inline-block;
+    width: 24%;
+}
+#small-pic img {
+    width: 75px;
+}
+#data-left {
+    color: navy;
+    display: inline-block;
+    width: 40%;
+}
+#data-left span{
+    color: red;
+    font-weight: bold;
+}
+#data-right {
+    color: navy;
+    display: inline-block;
+    width: 40%;
+}
+#data-right span{
+    color: red;
+    font-weight: bold;
+}
+#signature {
+    font-family: "Ms Madi", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+#right-side {
+    display: inline-block;
+    width: 28%;
+}
+#right-side img {
+    width: 210px;
+}
+#donor {
+    color: red;
+    display: inline-block;
+    margin: 5px 20px 0px 30px;
+}
+#real-id {
+    color: white;
+    background-color: rgb(229, 198, 0);
+    border-radius: 50%;
+    padding: 3px;
+    display: inline-block;
+}
+
