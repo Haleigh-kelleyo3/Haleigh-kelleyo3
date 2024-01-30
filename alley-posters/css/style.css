@@ -1,0 +1,67 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+/*.diplay-space #poster1 {
+    display: inline-block;
+    width: 20%;
+}
+.diplay-space #poster2 {
+    display: inline-block;
+    width: 20%;
+}
+.diplay-space #poster3 {
+    display: inline-block;
+    width: 20%;
+}*/
+#poster1 img {
+    width: 80px;
+    margin: 20px;
+    padding: 3px;
+    background-color: rgba(252, 99, 99, 0.722);
+}
+#poster2 img {
+    width: 95px;
+    margin: 100px 30px;
+    padding: 5px;
+    background-color: rgba(137, 11, 116, 0.787);
+}
+#poster3 img {
+    width: 87px;
+    margin: 40px 0px;
+    padding: 2px;
+    background-color: rgb(95, 1, 23);
+}
+#poster4 img {
+    width: 50px;
+    margin: 20px 35px;
+    padding: 5px;
+    background-color: rgb(8, 8, 34);
+}
+#poster5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: right;
+    width: 50px;
+    height: 70px;
+    margin-bottom: 70px;
+    padding: 10px;
+    background-color: rgb(251, 255, 240);
+}
+#good {
+    color: rgb(23, 210, 163);
+}
+#things {
+    color: hotpink;
+}
+#take {
+    color: rgb(247, 154, 89);
+}
+#time {
+    color: rgb(39, 125, 231);
+}
