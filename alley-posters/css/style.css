@@ -23,12 +23,14 @@
     margin: 20px;
     padding: 3px;
     background-color: rgba(252, 99, 99, 0.722);
+    box-shadow: inset 0px 0px 16px 4px black;
 }
 #poster2 img {
     width: 95px;
     margin: 100px 30px;
     padding: 5px;
-    background-color: rgba(137, 11, 116, 0.787);
+    box-shadow: inset 0px 0px 5px 6px rgba(137, 11, 116, 0.787);
+    border-radius: 3px;
 }
 #poster3 img {
     width: 87px;
