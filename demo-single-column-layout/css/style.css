@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+Body {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    background-color:  rgba(251, 241, 151, 0.592);
+    padding: 48px 0px;
+}
+
+.dark-container {
+    background-color: rgb(255, 162, 0);
+    padding: 48px 0px;
+}
