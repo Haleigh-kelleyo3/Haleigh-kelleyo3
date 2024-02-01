@@ -67,3 +67,8 @@ body {
 #column-2 {
     display: flex;
 }
+#column-2 img {
+    margin: 24px;
+    padding: 20px;
+    background-color: rgb(247, 109, 109);
+}
