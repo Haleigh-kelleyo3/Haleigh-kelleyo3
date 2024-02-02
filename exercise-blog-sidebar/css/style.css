@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(3, 45, 13);
 }
 
 #grid-layout {
@@ -16,7 +17,8 @@ body {
 
 #sidebar-content {
     grid-area: sidebar;
-    padding: 18px;
+    padding: 30px;
+    background-color: rgb(232, 249, 234);
 }
 
 #sidebar-content h2 {
@@ -67,8 +69,10 @@ body {
 }
 
 #main-content {
+    background-color: rgb(236, 252, 238);
     grid-area: content;
-    margin: 0px 36px;
+    padding: 30px;
+    margin: 0px
 }
 
 #main-content img {
