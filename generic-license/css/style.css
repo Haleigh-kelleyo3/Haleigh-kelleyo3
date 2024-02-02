@@ -33,18 +33,18 @@ h4 {
     display: inline-block;
     width: 63%;
 }
-#license-no{
+#license-no {
     margin-left: 5px;
     color: navy;
     display: inline-block;
     margin-right: 15px;
 }
-#license-no span{
+#license-no span {
     margin-left: 5px;
     font-weight: bold;
     color: red;
 }
-#expires span{
+#expires span {
     margin-left: 5px;
     font-weight: bold;
     color: red;
@@ -67,6 +67,7 @@ h4 {
     width: 24%;
 }
 #small-pic img {
+    opacity: 0.5;
     width: 75px;
 }
 #data-left {
@@ -74,7 +75,8 @@ h4 {
     display: inline-block;
     width: 40%;
 }
-#data-left span{
+#data-left span {
+    margin-left: 5px;
     color: red;
     font-weight: bold;
 }
@@ -83,7 +85,8 @@ h4 {
     display: inline-block;
     width: 40%;
 }
-#data-right span{
+#data-right span {
+    margin-left: 5px;
     color: red;
     font-weight: bold;
 }
