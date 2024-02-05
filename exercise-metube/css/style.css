@@ -5,6 +5,7 @@
 Body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(68, 51, 85);
 }
 
 #grid-layout {
@@ -25,38 +26,44 @@ Body {
 }
 
 #header #me {
-    color: #7a1ae8;
+    color: #a2fdbc;
+    margin-right: 5px;
 }
 
 #header #tube {
-    color: #a3ffb5;
-    background-color: rgb(133, 91, 167);
+    color: rgb(93, 75, 138);
+    background-color: rgb(110, 226, 110);
     padding: 4px;
     border-radius: 12px;
+    box-shadow: 6px 6px #111111;
 }
 
 #sidebar {
+    background-color: rgb(111, 217, 111);
     grid-area: sidebar;
     padding: 0px 24px;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 4px black;
 }
 
 #sidebar ul {
     padding: 12px 0px;
-    margin: 0px;
+    margin: 12px;
     list-style-type: none;
-    border-bottom: 1px solid rgb(58, 131, 97);
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 #sidebar ul a {
     text-decoration: none;
-    color: #43a076;
+    color: #111111;
     display: block;
     padding: 12px;
 }
 
 #sidebar ul a:hover {
-    background-color: rgb(166, 125, 196);
-    border-radius: 12px;
+    background-color: rgb(191, 132, 231);
+    border-radius: 4px 12px 12px 12px;
 }
 
 #main {
@@ -71,19 +78,24 @@ Body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    background: radial-gradient(at top left, crimson, orange);
+.metube-item .thumbnail-placeholder img{
+    width: 500px;
+    height: 500px;
     aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    border-radius: 10px 70px 70px 70px;
+    padding: 20px;
+    background-color: rgb(198, 166, 228);
+    box-shadow: 4px 4px #111111;
 }
 
 .metube-item h4 {
+    text-align: center;
     margin: 8px;
 }
 
 .metube-item h4 a {
     text-decoration: none;
-    color: #111111;
+    color: #a2fdbc;
     display: block;
 }
 
@@ -92,6 +104,8 @@ Body {
 }
 
 .metube-item .video-details {
+    color: rgb(198, 166, 228);
+    text-align: center;
     margin: 8px;
     font-size: 14px;
 }
