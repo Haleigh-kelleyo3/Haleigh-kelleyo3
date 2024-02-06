@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+Body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "sidebar main text";
+}
+
+#header {
+    padding: 10px 36px;
+    margin-bottom: 30px;
+    grid-area: header;
+    background-color: rgb(248, 240, 229);
+}
+
+#header a {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+#header #m {
+    color: blueviolet;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 12px;
+    box-shadow: 2px 2px #111111;
+}
+
+#header #e {
+    color: red;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 12px;
+    box-shadow: 2px 2px #111111;
+}
+
+#header #b {
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 12px;
+    box-shadow: 2px 2px #111111;
+}
+#header #a {
+    color: rgb(243, 204, 50);
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 12px;
+    box-shadow: 2px 2px #111111;
+}
+
+#header #y {
+    color: green;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 12px;
+    box-shadow: 2px 2px #111111;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#search-bar {
+    display: inline-block;
+    margin-left: 100px;
+    padding: 15px 900px 15px 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+
+}
+
+#search {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+#sidebar img {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    background-color: #9f00000f;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+#sidebar img:hover {
+    opacity: 50%;
+    border: 2px solid black;
+}
+
+#sidebar {
+    background-color: antiquewhite;
+    grid-area: sidebar;
+    padding: 0px 24px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .thumbnail-placeholder img{
+    width: 1000px;
+    height: 660px;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+#text {
+    grid-area: text;
+    margin: 0px 50px;
+}
+
+#seller {
+    padding: 20px;
+    background-color: rgb(250, 251, 253);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+#container-flex1 {
+    display: flex;
+}
+
+#container-flex1 i {
+    font-size: 40px;
+    margin: 10px 10px 10px 0px;
+}
+
+#text h2 {
+    color: #02165b;
+}
+
+#seller h4 {
+    margin: 5px;
+}
+
+#seller h4 a {
+    color: #9f0000;
+}
+
+#new {
+    color: #9f0000;
+    font-weight: bold;
+}
+
+#chest {
+    display: inline-block;
+}
+
+#select {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 10px 420px 10px 10px;
+    background-color: rgb(250, 251, 253);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+#quantity {
+    display: inline-block;
+}
+
+#one {
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(250, 251, 253);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#last {
+    display: inline-block;
+    color: #9f0000;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#button-1 {
+    color: whitesmoke;
+    background-color: #0328a4;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+#button-1:hover {
+    background-color: #0329a4c3;
+}
+
+
+#button-2 {
+    color: whitesmoke;
+    background-color: #ad0909;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+#button-2:hover {
+    background-color: #ad0909ad;
+}
+
+#button-3 {
+    color: #9f0000;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #9f0000;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+#button-3 i {
+    margin-right: 10px;
+}
+
+#button-3:hover {
+    background: #9f00001b;
+}
+
+
