@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-Body {
+body {
     margin: 0px;
     font-family: sans-serif;
     background-color: rgb(68, 51, 85);
@@ -78,10 +78,8 @@ Body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder img{
-    width: 500px;
-    height: 500px;
-    aspect-ratio: 16 / 9;
+.metube-item img {
+    width: 100%;
     border-radius: 10px 70px 70px 70px;
     padding: 20px;
     background-color: rgb(198, 166, 228);
