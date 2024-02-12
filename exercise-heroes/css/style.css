@@ -94,13 +94,13 @@ body {
     font-family: serif;
     color: rgb(89, 64, 0);
     margin-bottom: 5vh;
-    margin-left: 45vw;
+    margin-left: 50vw;
 }
 
 #hero-3 h4 {
     font-size: 1.5vw; 
     color: rgb(169, 123, 7);
-    margin: 0px 10vw 0px 0px;
+    margin: 0px 5vw 0px 0px;
 }
 
 #hero-3 a {
@@ -110,6 +110,6 @@ body {
     color: rgb(226, 226, 226);
     text-decoration: none;
     padding: 24px;
-    margin: 5vh 10vw 10vh 0px;
+    margin: 5vh 5vw 10vh 0px;
     border-radius: 10px;
 }
