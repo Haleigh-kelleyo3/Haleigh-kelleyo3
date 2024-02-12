@@ -92,23 +92,24 @@ body {
 #hero-3 h2 {
     font-size: 4vw;
     font-family: serif;
-    color: goldenrod;
+    color: rgb(89, 64, 0);
     margin-bottom: 5vh;
-    margin-left: 50vw;
+    margin-left: 45vw;
 }
 
 #hero-3 h4 {
-    font-size: 1.5vw;
-    margin: 0px 5vw 0px 0px;
+    font-size: 1.5vw; 
+    color: rgb(169, 123, 7);
+    margin: 0px 10vw 0px 0px;
 }
 
 #hero-3 a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: rgb(7, 23, 60);
+    background-color: rgb(54, 68, 99);
     color: rgb(226, 226, 226);
     text-decoration: none;
     padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    margin: 5vh 10vw 10vh 0px;
     border-radius: 10px;
 }
