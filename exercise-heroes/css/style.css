@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hero-1 {
+    background-image: url("../images/hero-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-1 h2 {
+    font-size: 5vw;
+    font-family: serif;
+    color: rgb(121, 158, 251);
+    margin-bottom: 5vh;
+    margin-left: 43vw;
+}
+
+#hero-1 h4 {
+    font-size: 2vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(121, 158, 251);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 10px;
+}
+
+#hero-2 {
+    height: 100vh;
+    background-image: url("../images/hero-2.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-2 .hero-content {
+    text-align: center;
+    color: black;
+    padding-top: 3.5vh;
+}
+
+#hero-2 h2 {
+   font-size: 6vw;
+   margin-bottom: 5vh;
+}
+
+#hero-2 h4 {
+    color: rgb(4, 83, 14);
+    font-size: 2vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    background-color: rgb(3, 109, 3);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 10px;
+}
+
+#hero-3 {
+    background-image: url("../images/hero-3.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-3 h2 {
+    font-size: 4vw;
+    font-family: serif;
+    color: goldenrod;
+    margin-bottom: 5vh;
+    margin-left: 50vw;
+}
+
+#hero-3 h4 {
+    font-size: 1.5vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(7, 23, 60);
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 10px;
+}
