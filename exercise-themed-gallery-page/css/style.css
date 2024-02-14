@@ -3,7 +3,9 @@
 }
 
 body{ 
-    background: url("../images/background.jpg");
+    background: 
+        linear-gradient(rgba(7, 7, 82, 0.346),rgba(7, 7, 82, 0.346)),
+        url("../images/background.jpg");
     background-size: cover;
     margin: 0px;
     font-family: serif;
