@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar-1 {
+    background-color: #2b3d25;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar-1 h2 {
+    margin-right: auto;
+    padding: 10px;
+    color: #c3f2b1;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+
+
+#navbar-2 {
+    background: linear-gradient(to bottom, rgba(145, 1, 255, 0.773), #00f5b896);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    padding: 24px;
+}
+
+#navbar-2 h2 {
+    padding: 10px;
+    color: #131313c1;
+}
+
+#navbar-2 .cta-buttom {
+    background-color: white;
+    color: #089471c1;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    box-shadow: 4px 4px 8px #0894719c;
+}
+
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #2f312f);
+    padding: 10px;
+   
+}
+
+#navbar-top h2 {
+    color: #b181f9;
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top a {
+    text-decoration: none;
+    color: rgb(255, 207, 156);
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 24px;
+}
+
+
+#navbar-top .cta-buttom {
+    background-color:rgb(255, 207, 156);
+    color: rgb(3, 3, 3);
+    border-radius: 36px;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(255, 166, 0, 0.749);
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, rgb(214, 255, 133), rgb(120, 191, 58));
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 0px;
+}
+
+#layout {
+    width: 600px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 150vh;
+}
+
+#promo {
+    display: flex;
+    justify-content: center;
+    background-color: #c392ff;
+    font-size: 10px; 
+}
