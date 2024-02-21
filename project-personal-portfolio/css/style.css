@@ -136,10 +136,14 @@ body{
 }
 
 #home a {
-    font-size: 1.5vw;
+    font-size: 2vw;
     background-color: rgb(64, 100, 150);
     color: rgb(148, 172, 206);
     text-decoration: none;
     padding: 24px;
     border-radius: 10px;
+}
+
+#home {
+    margin-top: 40px;
 }
