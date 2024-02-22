@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/* Home Page*/
+
 body {
     background: url(../images/background.png);
     background-size: cover;
@@ -17,6 +19,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    position: sticky;
+    top: 0px;
 }
 
 #navbar a {
@@ -45,6 +49,10 @@ body {
     margin-right: auto;
 }
 
+#navbar #logo a:hover {
+    color: rgb(0, 48, 56);
+}
+
 #navbar #logo i {
     font-size: 50px;
 }
@@ -63,16 +71,16 @@ body {
 }
 
 #layout {
-    width: 900px;
-    min-width: 500px;
+    width: 1100px;
     margin: 0px auto;
     background-color: #e9b63f;
+    border-radius: 10px;
 }
 
 #hero {
     background-image: url("../images/dog-cover.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
     background-position: center center;
     display: flex;
     justify-content: flex-start;
@@ -86,13 +94,13 @@ body {
 
 #info img {
     display: inline-block;
-    width: 13%;
+    width: 15%;
     margin-bottom: 0px;
 }
 
 #info h2 {
     display: inline-block;
-    width: 16%;
+    width: 17%;
     font-size: 80px;
     color: #de5900ef;
     margin-bottom: 0px;
@@ -102,11 +110,79 @@ body {
     font-size: 80px;
     font-family: sans-serif;
     color: rgb(1, 57, 74);
+    margin: 90px;
 }
 
 #info h3 {
     font-size: 24px;
     color: rgb(1, 57, 74);
     margin-bottom: 70px;
+    margin-top: 0px;
+}
+
+#img-container img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 80px;
+    box-shadow: 8px 15px 12px;
+}
+
+#info-2 {
+    background-color: #f2d3da;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#info-2 .cta-button {
+    color: #f2d3da;
+    background-color: rgb(1, 57, 74);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin: 45px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.369);
+    margin-bottom: 100px;
+}
+
+#info-2 a {
+    text-decoration: none;
+    color: rgb(0, 48, 56);
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}  
+
+#info-2 a:hover {
+    color: #f6afbf;
+    box-shadow: none;
+    transform: scale(.99);
+    transition: transform .5s;
+}
+
+#info-2 h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    color: rgb(1, 57, 74);
+    margin: 40px;
+}
+
+#info-2 h3 {
+    font-size: 24px;
+    color: rgb(1, 57, 74);
+    margin-bottom: 80px;
+}
+
+#info-2 h2 {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #de5900ef;
+    margin-bottom: 0px;
     margin-top: 0px;
 }
