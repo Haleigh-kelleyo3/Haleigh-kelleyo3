@@ -109,3 +109,9 @@ body {
     visibility: visible;
     transform: translateY(0px); 
 }
+
+.card-content ul {
+    text-align: left;
+}
+
+/* card gallery 3 */
