@@ -397,4 +397,38 @@ body {
     #link-container {
         flex-wrap: wrap;
     }
+
+    #hero {
+        height: 40vh;
+    }
+
+    #info img {
+        width: 20%;
+    }
+
+    #info h2 {
+        width: 35%;
+        font-size: 85px;
+    }
+
+    #info h1 {
+        font-size: 50px;
+    }
+
+    #info-2 h1 {
+        font-size: 50px;
+    }
+
+    #info-2 h3 {
+        font-size: 17px;
+    }
+
+    #info-2 h2 {
+        font-size: 40px;
+    }
+
+    #img-container img {
+        width: 300px;
+        height: 300px;
+    }
 }
