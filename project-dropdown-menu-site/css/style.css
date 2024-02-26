@@ -323,6 +323,36 @@ body {
     background-image: url(../images/cat-card-3.jpg);
 }
 
+/* Turtle page */
+
+#card6-10 {
+    background-image: url(../images/turtle-card-1.jpg);
+}
+
+#card6-11 {
+    background-image: url(../images/turtle-card-2.jpg);
+}
+
+#card6-12 {
+    background-image: url(../images/turtle-card-3.jpg);
+}
+
+/* Hanster page */
+
+#card6-13 {
+    background-image: url(../images/hamster-card-1.jpg);
+    background-position: 430px;
+}
+
+#card6-14 {
+    background-image: url(../images/hamster-card-2.jpg);
+}
+
+#card6-15 {
+    background-image: url(../images/hamster-card-3.jpg);
+    background-position: 430px;
+}
+
 /* drop-down */
 
 #link-container {
