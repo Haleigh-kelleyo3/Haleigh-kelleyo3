@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(226, 171, 36);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* hero image */
+
+#hero-1 {
+    background: 
+        linear-gradient(#4f0915d4,#9f1d3393),
+        url("../images/hero-1.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-1 .hero-content {
+    text-align: center;
+    color: rgb(226, 171, 36);
+    padding-top: 20vh;
+}
+
+
+#hero-1 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-1 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+/* cards */
+
+.card-container {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.cards {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cards img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
