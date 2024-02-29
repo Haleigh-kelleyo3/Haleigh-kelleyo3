@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.center-column {
+    background-color: rgb(245, 214, 255);
+    width: 90%;
+    padding: 30px;
+    min-width: 500px;
+    margin: 0px auto;
+}
+
+#teams {
+    display: flex;
+    gap: 36px;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background: linear-gradient(-45deg,blueviolet, rgb(214, 67, 92),blueviolet);
+    color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.447);
+    padding: 20px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cheifs h2 {
+    text-align: center;
+}
+
+#chiefs img {
+    width: 100%;
+}
+
+#sf img {
+    width: 100%;
+}
+
+#teams h1 {
+    margin: 20px;
+    color: blueviolet;
+}
+
+#info-1,
+#info-2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#cta-button a {
+    background: linear-gradient(45deg,blueviolet, rgb(214, 67, 92),blueviolet);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.369);
+}
+
+#cta-button {
+    text-align: center;
+}
+
+#cta-button a:hover {
+    color: #f6afbf;
+    box-shadow: none;
+    transform: scale(.99);
+    transition: transform .5s;
+}
+
+#qa {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#info-1 h3 {
+    font-size: 50px;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* media quiry */
+
+
