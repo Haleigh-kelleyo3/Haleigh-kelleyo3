@@ -4,10 +4,15 @@
 
 body {
     margin: 0px;
-    background-color: rgb(226, 171, 36);
+    background-color: #590210;
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+#layout {
+    align-items: center;
+    margin: 0px auto;
+}
 
 /* hero image */
 
@@ -67,7 +72,6 @@ body {
     padding: 100px 15px 40px 15px;
     position: relative;
     width: 350px;
-    background:  #590210;
     border: 3px solid rgb(252, 221, 143);
     border-radius: 5px;
     box-shadow: 4px -4px 12px rgba(0, 0, 0, 0.245);
@@ -129,4 +133,121 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+}
+
+.image-container,
+.content-container {
+    flex: 1;
+}
+
+.image-container {
+    height: 400px;
+}
+
+.content-container h1 {
+    font-size: 48px;
+    color: #ffb700;
+}
+
+.featured {
+    background-color: #590210;
+    color: rgb(226, 171, 36);
+    padding: 24px;
+    position: absolute;
+    margin-top: -300px;
+}
+
+.featured h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    grid-template-areas:
+        "txt1 img1 img2 img2"
+        "img3 img3 img4 txt2";
+}
+
+#p1 {
+    grid-area: txt1;
+}
+#p2 {
+    grid-area: txt2;
+}
+#img1 {
+    grid-area: img1;
+}
+#img2 {
+    grid-area: img2;
+}
+#img3 {
+    grid-area: img3;
+}
+#img4 {
+    grid-area: img4;
+}
+
+.grid p {
+    border: 2px solid #ffb700;
+    border-radius: 24px;
+    margin: 0px;
+    padding: 20px;
+}
+
+/* menu */
+
+#layout-2 {
+    align-items: center;
+    margin: 0px auto;
+}
+
+.item {
+    color: rgb(226, 171, 36);
+    padding: 100px 15px 40px 15px;
+    position: relative;
+    width: 350px;
+    border: 3px solid rgb(226, 171, 36);
+    border-radius: 5px;
+    box-shadow: 4px -4px 12px rgba(0, 0, 0, 0.245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.item img {
+    position: absolute;
+    top: -100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#menu-3 img {
+    width: 300px;
+    height: 300px;
+    top: -150px;
+}
+
+#menu-7 img {
+    width: 190px;
+    height: 190px;
+}
+
+#menu-8 img,
+#menu-11 img {
+    width: 250px;
+    height: 250px;
+    top: -120px;
 }
