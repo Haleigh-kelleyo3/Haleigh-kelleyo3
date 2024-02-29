@@ -97,4 +97,16 @@ body {
 
 /* media quiry */
 
+@media screen and (max-width: 800px) and (min-width: 480px) {
+    #info-1 h3 {
+        font-size: 30px;
+    }
 
+    .logo {
+        width: 200px;
+    }
+
+    #info-1 img {
+        width: 60%;
+    }
+}
