@@ -408,7 +408,7 @@ body {
     display: inline-block;
     flex-direction: column;
     border-radius: 50%;
-    width: 400px;
+    width: 500px;
     object-fit: cover;
     padding: 40px;
     
@@ -423,11 +423,13 @@ body {
 #featured-item h2 {
     color: #ffb700;
     padding: 20px;
+    font-size: 28px;
 }
 
 #layout-2 h1 {
     text-align: center;
     color: #e2ab24;
+    font-size: 28px;
 }
 
 /* media queries */
@@ -482,11 +484,15 @@ body {
     }
 
     #featured-item img {
-        width: 250px;
+        width: 400px;
     }
 
     #featured-item2 {
         font-size: 15px;
+    }
+
+    #featured-item {
+        flex-direction: column;
     }
 
 }
