@@ -327,6 +327,10 @@ cards
 
 }
 
+#navbar a:hover {
+    color: #590210a1;
+}
+
 #navbar #logo img {
     width: 150px;
     padding: 10px;
@@ -448,6 +452,13 @@ cards
     color: #ffb700;
     padding: 20px;
     font-size: 28px;
+    margin-bottom: 0px;
+}
+
+#featured-item h4 {
+    color: #ffb700;
+    margin-top: 0px;
+    padding: 20px;
 }
 
 #layout-2 h1 {
