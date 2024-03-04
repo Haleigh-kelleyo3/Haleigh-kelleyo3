@@ -481,4 +481,12 @@ body {
         height: 250px;
     }
 
+    #featured-item img {
+        width: 250px;
+    }
+
+    #featured-item2 {
+        font-size: 15px;
+    }
+
 }
