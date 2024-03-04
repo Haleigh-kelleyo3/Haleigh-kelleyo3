@@ -361,12 +361,12 @@ body {
 
 #footer-2 img,
 #footer-4 img {
+    margin: 30px;
     width: 200px;
     height: 400px;
 }
 
 #footer-1 {
-    margin-right: 30px;
     text-align: center;
     grid-area: footer-1;
 }
@@ -391,4 +391,57 @@ body {
 
 #footer-container h2 {
     color: #f3aeb9;
+}
+
+/* media queries */
+
+@media screen and (max-width: 780px) and (min-width: 480px) {
+    #footer-1 img {
+        width: 150px;
+        height: 55px;
+    }
+
+    #footer-1 {
+        font-size: 10px;
+    }
+
+    #footer-2 img,
+    #footer-4 img {
+        margin: 20px;
+        width: 100px;
+        height: 200px;
+    }
+
+    #footer-3,
+    #footer-5 {
+        font-size: 10px;
+    }
+
+    #footer-5 {
+        position: absolute;
+        top: 30px;
+    }
+
+    #navbar .cta-buttom {
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 10px 15px;
+    }
+
+    #navbar a {
+        font-size: 12px;
+    }
+
+    #card-2 {
+        margin-bottom: 100px;
+    }
+
+    #hero-2 {
+        height: 65vh;
+    }
+
+    .grid img {
+        height: 250px;
+    }
+
 }
